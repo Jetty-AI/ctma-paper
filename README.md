@@ -12,15 +12,17 @@ Contemporary large language models (LLMs) suffer from a fundamental architectura
 
 We introduce the **Cascading Temporal Memory Architecture (CTMA)**, a novel three-tier memory framework that draws on principles from cognitive psychology, neuroscience, and information theory to construct a longitudinal, user-specific knowledge graph with biologically-inspired decay dynamics. CTMA implements a memory lifecycle spanning **ephemeral**, **cascading**, and **permanent** storage tiers, governed by a temporal decay function modulated by behavioral signals, recency, frequency, and contextual importance.
 
-### Key Results (90-day pilot, n=2,500)
+### Directional Results (Prior Iterations, 2023–2024, n≈2,500)
 
-| Metric | Result |
+*The following observations are from earlier builds of the platform (including Kaya Tech) and are presented as directional findings. The architecture has since been rebuilt and a formal validation study is underway.*
+
+| Metric | Observed Result |
 |--------|--------|
-| Satisfaction vs. memoryless baseline | **+34%** |
-| Satisfaction vs. naïve RAG | **+19%** |
-| Decay–relevance correlation (Spearman ρ) | **0.71** (p < 0.001) |
-| 30-day retention lift (high-graph users) | **2.4×** |
-| Promotion accuracy at 60 days | **91%** |
+| Satisfaction vs. memoryless baseline | **~+34%** |
+| Satisfaction vs. naïve RAG | **~+19%** |
+| Decay–relevance correlation (Spearman ρ) | **~0.71** |
+| 30-day retention lift (high-graph users) | **~2.4×** |
+| Promotion accuracy at 60 days | **~91%** |
 
 ---
 
